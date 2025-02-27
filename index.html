@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--<title>Interactive Indian Railway Timeline</title>-->  
+
+    <!-- Include vis.js Library (CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css">
+
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!--<h2>Evolution of Indian Railways</h2>--> 
+    <div id="timeline"></div> <!-- Timeline container -->
+    
+    <!-- Popup Modal for Event Details -->
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="eventTitle"></h3>
+            <p id="eventDescription"></p>
+            <img id="eventImage" src="" alt="Event Image">
+        </div>
+    </div>
+
+    <!-- Link to External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
