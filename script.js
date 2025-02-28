@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // Select the timeline container
 var container = document.getElementById('timeline');
 
+
 // Define timeline events with descriptions and images (Updated with recent milestones)
 var items = new vis.DataSet([
     { id: 1, content: "First Railway Proposal", start: "1832-01-01", description: "First proposal for a railway system in India was made in 1832.", image: "image_1.jpg" },
@@ -34,6 +35,7 @@ var options = {
     showCurrentTime: true, 
     zoomable: true,
     clickToUse: true
+    
 };
 
 // Create the timeline
